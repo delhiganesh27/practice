@@ -1,0 +1,24 @@
+.sidenav{
+    background-color: #242d31;
+}
+
+.main{
+    background-color: #edf1f6;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms{
+    width:40%;
+}
+
+.terms-content{
+    background-color: #f4f5f5;
+    
+}
+.bgcolor{
+    background-color: #fffefe;
+}
