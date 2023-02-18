@@ -28,39 +28,55 @@
     ></script>
 
     <div class="container-fluid">
-      <div class="row bg-success"></div>
+      <!-- navbar -->
       <div class="row">
-        <div class="col-2 sidenav"></div>
-        <div class="col-10 main">
-        <div class="bgcolor">
-          <h3><i class="fa fa-globe"></i> Delhi papst Musterstbe 42-100000 Berlin</h3>
-          <hr />
+        <div class="navbar"></div>
+      </div>
+      <!-- nav bar ends -->
+      <div class="row">
+        <div class="col-2 sidenav">
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link">Dashboard</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Timesheet</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Invoice</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Administration</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
+          </ul>
+          <li></li>
+        </div>
+        <div class="col-10">
+          <div class="card p-2">
+            <h3>
+              <i class="fa fa-globe"></i> Delhi papst Musterstbe 42-100000
+              Berlin
+            </h3>
+            <hr />
 
-          <div class="flex p-2">
             <!-- Address starts -->
-            
-              <address>
-                From <br />
-                <strong>Delhi papst</strong> <br />
-                Musterstbe 42 <br />
-                D-100000 Berlin
-              </address>
-            
-            
-              <address>
-                To <br />
-                <strong>Customer name</strong> <br />
-                Somewhere 11a <br />
-                D-100000 Berlin
-              </address>
 
+            <address>
+              From <br />
+              <strong>Delhi papst</strong> <br />
+              Musterstbe 42 <br />
+              D-100000 Berlin
+            </address>
 
-            <div>
-              <p><strong>Invoice number:18023</strong></p>
-              <p><strong>Payment target:</strong>12.08.2018</p>
-            </div>
+            <address>
+              To <br />
+              <strong>Customer name</strong> <br />
+              Somewhere 11a <br />
+              D-100000 Berlin
+            </address>
+
+            <p><strong>Invoice number:18023</strong></p>
+            <p><strong>Payment target:</strong>12.08.2018</p>
+
             <!-- Address ends -->
-          </div>
+
+            <!-- Main Table start -->
+
             <table class="table table-hover">
               <thead>
                 <tr>
@@ -109,40 +125,38 @@
                 </tr>
               </tbody>
             </table>
-          
-          <!-- Main table starts -->
-          <!-- Main table ends -->
-          <!-- payment target table -->
-          <div class="d-flex">
-            <div class="terms">
-              <h5 class="text-muted">Terms of payment</h5>
-              <p class="terms-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus optio nihil quisquam consequatur aspernatur aliquam facere reprehenderit laborum? Error, assumenda.</p>
-            </div>
-            
 
-            <div class="payment">
-              <label class="h5 text-muted">Payment Target 12.03.2018</label>
-              <table class="table">
+            <!-- Main table end-->
 
-                <tbody>
-                  <tr>
-                    <th>Subtotal</th>
-                    <td>4,162,50 <i class="fa fa-euro-sign"></i></td>
-                  </tr>
-                  <tr>
-                    <th>Tax(19%)</th>
-                    <td>790.88 <i class="fa fa-euro-sign"></i></td>
-                  </tr>
-                  <tr>
-                    <th>Total</th>
-                    <td>4,953.38 <i class="fa fa-euro-sign"></i></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <!-- payment target table  start-->
+
+            <h5 class="text-muted">Terms of payment</h5>
+            <p class="terms-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus optio nihil quisquam consequatur aspernatur aliquam
+              facere reprehenderit laborum? Error, assumenda.
+            </p>
+
+            <label class="h5 text-muted">Payment Target 12.03.2018</label>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>Subtotal</th>
+                  <td>4,162,50 <i class="fa fa-euro-sign"></i></td>
+                </tr>
+                <tr>
+                  <th>Tax(19%)</th>
+                  <td>790.88 <i class="fa fa-euro-sign"></i></td>
+                </tr>
+                <tr>
+                  <th>Total</th>
+                  <td>4,953.38 <i class="fa fa-euro-sign"></i></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Payment target table end -->
           </div>
-          <!-- Payment target table end -->
-        </div>
         </div>
       </div>
     </div>
